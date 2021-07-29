@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0 auto;
+}
+
+header {
+    margin: 3rem auto 2rem;
+    text-align: center;
+}
+
+header img {
+    width: 15rem;
+}
+
+main {
+    width: 70rem;
+    margin: 0 auto;
+
+}
+
+.card-column {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    flex-grow: 1;
+    margin: 1rem auto;
+    padding: 2rem;
+    width: inherit;
+}
+
+.card img {
+    width: 25rem;
+    border: 1px solid #929EAF;
+    /* margin: 1rem auto; */
+}
+
+/* .card .card-body {
+    width: inherit;
+} */
